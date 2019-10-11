@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="417dp"
+        android:layout_height="731dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" User Registration"
+            android:textColor="#ffffff"
+            android:textSize="50dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="116dp"
+                android:layout_height="42dp"
+                android:text="Username :"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteX="23dp"
+                tools:layout_editor_absoluteY="139dp"
+                android:textColor="#ffffff"/>
+
+            <EditText
+                android:id="@+id/usernameRegister"
+                android:layout_width="193dp"
+                android:layout_height="44dp"
+                android:hint="username"
+                tools:layout_editor_absoluteX="156dp"
+                tools:layout_editor_absoluteY="137dp"
+                android:textColor="#ffffff"></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password :"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="235dp"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/passwordRegister"
+                android:layout_width="193dp"
+                android:layout_height="44dp"
+                android:hint="password"
+                tools:layout_editor_absoluteX="131dp"
+                tools:layout_editor_absoluteY="218dp"
+                android:inputType="textPassword"
+                android:textColor="#ffffff"></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm Password :"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteX="14dp"
+                tools:layout_editor_absoluteY="310dp"
+                android:textColor="#ffffff"
+                />
+
+            <EditText
+                android:id="@+id/confirmPasswordRegister"
+                android:layout_width="193dp"
+                android:layout_height="44dp"
+                android:hint="Confirm Password"
+                tools:layout_editor_absoluteX="204dp"
+                tools:layout_editor_absoluteY="293dp"
+                android:inputType="textPassword"
+                android:textColor="#ffffff"
+                ></EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="382dp"
+                android:textColor="#ffffff"
+                />
+
+            <EditText
+                android:id="@+id/emailRegister"
+                android:layout_width="193dp"
+                android:layout_height="44dp"
+                android:hint="email"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="365dp"
+                android:textColor="#ffffff"
+                ></EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age :"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="464dp"
+                android:textColor="#ffffff"
+                />
+
+            <EditText
+                android:id="@+id/ageRegister"
+                android:layout_width="193dp"
+                android:inputType="number"
+                android:layout_height="44dp"
+                android:hint="age"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="447dp"
+                android:textColor="#ffffff"
+                ></EditText>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/submitRegister"
+            android:layout_width="406dp"
+            android:layout_height="42dp"
+            android:text="Submit"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="543dp"></Button>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
